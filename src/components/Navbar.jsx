@@ -52,7 +52,7 @@ const Navbar = () => {
             </g>
           </svg>
           <h1 className="text-5xl font-bold tracking-tighter cursor-pointer">
-            GIFFY
+            GIPHY
           </h1>
         </Link>
 

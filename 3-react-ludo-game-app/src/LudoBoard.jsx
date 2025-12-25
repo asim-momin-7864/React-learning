@@ -168,7 +168,7 @@ export default function LudoBoard() {
           backgroundColor: "whitesmoke",
         }}
       >
-        <p style={{ fontWeight: "500" }}> Array = {arr}</p>
+        <p style={{ fontWeight: "500" }}> Array = {arr.join(", ")}</p>
         <button onClick={addElementInArray}>Add Element</button>
       </div>
     </div>

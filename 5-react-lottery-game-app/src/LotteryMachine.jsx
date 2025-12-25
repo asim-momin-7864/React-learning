@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Ticket from "./Ticket";
 import { arrayDigitGenerator } from "./helper";
-import Button from "./button";
+import Button from "./Button";
 
 export default function LotteryMachine({ digitSize = 2, winCondition }) {
   // Lottery Ticket
